@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    max-height: 1996px;
+}
+
+h1{
+    font-family: gotham;
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    font-family: gotham;
+    font-size: 32px;
+    font-weight: bolder;
+}
+p{
+    font-family: gotham;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #f7bdb3;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 40px 20px 40px;
+}
+.barra{
+    float: right;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: Gotham;
+    font-weight: book;
+    font-size: 24px;
+    padding: 10px;
+}
+.barra a {
+    text-decoration: none;
+    color: black;
+}
+.barra a:hover{
+    color: #F99787;
+    text-decoration: underline;
+}
+
+.imagenPerfil img{
+    padding-top: 20px;
+    padding-left: 440px;
+}
+.imagenPerfil h1{
+    padding-left: 430px;
+    padding-top: 20px;
+}
+.imagenPerfil p{
+    padding-left: 448px;
+    padding-top: 10px;
+}
+
+.card__1{
+    display: flex;
+    height: 620px;
+    width: 1059px;
+    background-color: #f7bdb356;
+    border: 3px solid #f7bdb3;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.card__1__texto h2{
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+.card__1__texto p{
+    padding: 0px 40px 0px 50px;
+}
+.card__1__imagen img{
+    padding: 50px 50px 0px 0px;
+}
+
+.card__2 {
+    display: flex;
+    height: 620px;
+    width: 1059px;
+    background-color: #f7bdb356;
+    border: 3px solid #f7bdb3;
+    border-radius: 20px;
+    margin: 200px 0px 40px 250px;
+}
+.card__2__texto h2{
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+.card__2__texto p{
+    padding: 0px 40px 0px 50px;
+}
+.card__2__imagen img{
+    padding: 50px 0px 0px 50px;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #f7bdb3;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.titulo h1{
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+.card__1__texto ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: Gotham;
+    font-weight: book;
+    font-size: 24px;
+    padding: 10px 0px 0px 50px;
+}
+.card__2__texto ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: Gotham;
+    font-weight: book;
+    font-size: 24px;
+    padding: 10px 0px 0px 50px;
+}
+
+.titulo__h__texto{
+    text-align: center;
+    padding: 100px 0px 365px 50px;
+}
+.main__herramientas{
+background-image: url(img/ICONOS\ HERRAMIENTAS/gif-herramientas.gif);
+}
+
+.iconos img{
+    margin: 140px 0px 0px 100px;
+    filter: drop-shadow(50px 50px 50px rgb(0, 0, 0));
+}
+
+.imagenes{
+    padding: 80px 0px 0px 50px;
+}
+
+.form-floating{
+    padding: 20px 0px 0px 400px;
+    font-family: gotham;
+    font-size: 16px;
+    font-weight: medium;
+}
+.formulario-completa{
+    padding: 10px 0px 0px 400px;
+}
+
+.form-control{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color: #f7bdb356;
+    border: 1px solid #f7bdb3;
+}
+.boton-enviar{
+    padding: 40px 400px;
+}
+.bg-danger{
+    background-color: #f7bdb356;
+    border: 1px solid #f7bdb3;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px
+}
+.bg-danger:hover{
+    background-color: #F99787;
+}
+
+.contacto{
+    display: flex;
+    padding: 40px 0px 0px 400px;
+}
+.contacto-texto{
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+    font-family: Gotham;
+    font-weight: book;
+    font-size: 24px;
+}
